@@ -60,8 +60,8 @@ gtu-blockchain-website/
 
 1. **Projeyi klonlayın:**
 ```bash
-git clone [repository-url]
-cd gtu-blockchain-website
+git clone https://github.com/ahmettemre21/gtublockchain.git
+cd gtublockchain
 ```
 
 2. **Bağımlılıkları yükleyin:**
@@ -137,4 +137,4 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ---
 
-**GTU Blockchain Kulübü** - Smart Contracts, Smarter Future 🚀 
+**GTU Blockchain Kulübü** - Smart Contracts, Smarter Future 🚀
