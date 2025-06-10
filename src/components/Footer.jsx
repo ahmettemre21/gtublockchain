@@ -16,8 +16,7 @@ const Footer = () => {
           <div className="footer-main">
             <div className="footer-brand">
               <div className="footer-logo">
-                <span className="logo-text">GTU</span>
-                <span className="logo-accent">Blockchain</span>
+                <img src="/images/logo-with-text.svg" alt="GTU Blockchain" className="footer-logo-img" />
               </div>
               <p className="footer-description">
                 Blockchain teknolojisinin gücüyle geleceği şekillendiren 

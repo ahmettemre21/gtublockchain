@@ -33,8 +33,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-content">
           <div className="nav-logo">
-            <span className="logo-text">GTU</span>
-            <span className="logo-accent">Blockchain</span>
+            <img src="/images/logo-with-text.svg" alt="GTU Blockchain" className="nav-logo-img" />
           </div>
 
           <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

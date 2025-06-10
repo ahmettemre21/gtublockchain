@@ -91,15 +91,18 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-.social-icon {
-  font-size: 1.5rem;
+.social-icon-img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: all 0.3s ease;
   animation: socialFloat 3s ease-in-out infinite;
 }
 
-.social-link:nth-child(1) .social-icon { animation-delay: 0s; }
-.social-link:nth-child(2) .social-icon { animation-delay: 0.5s; }
-.social-link:nth-child(3) .social-icon { animation-delay: 1s; }
-.social-link:nth-child(4) .social-icon { animation-delay: 1.5s; }
+.social-link:nth-child(1) .social-icon-img { animation-delay: 0s; }
+.social-link:nth-child(2) .social-icon-img { animation-delay: 0.5s; }
+.social-link:nth-child(3) .social-icon-img { animation-delay: 1s; }
+.social-link:nth-child(4) .social-icon-img { animation-delay: 1.5s; }
 
 @keyframes socialFloat {
   0%, 100% {

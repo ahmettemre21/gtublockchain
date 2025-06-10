@@ -25,20 +25,16 @@
 .nav-logo {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
-  font-weight: 700;
 }
 
-.logo-text {
-  color: var(--text-white);
-  margin-right: 0.5rem;
+.nav-logo-img {
+  height: 40px;
+  width: auto;
+  transition: all 0.3s ease;
 }
 
-.logo-accent {
-  background: linear-gradient(135deg, var(--bright-blue), var(--purple-accent));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.nav-logo-img:hover {
+  transform: scale(1.05);
 }
 
 .nav-menu {

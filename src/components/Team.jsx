@@ -41,6 +41,12 @@ const Team = () => {
       role: t('team.members.financeDirector'),
       emoji: '💰',
       gradient: 'linear-gradient(135deg, #fdcb6e, #e17055)'
+    },
+    {
+      name: 'Yağmur Meral',
+      role: t('team.members.socialMediaDirector'),
+      emoji: '🎨',
+      gradient: 'linear-gradient(135deg, #f093fb, #f5576c)'
     }
   ];
 

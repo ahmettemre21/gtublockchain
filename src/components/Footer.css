@@ -25,21 +25,17 @@
 .footer-logo {
   display: flex;
   align-items: center;
-  font-size: 2rem;
-  font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.footer-logo .logo-text {
-  color: var(--text-white);
-  margin-right: 0.5rem;
+.footer-logo-img {
+  height: 60px;
+  width: auto;
+  transition: all 0.3s ease;
 }
 
-.footer-logo .logo-accent {
-  background: linear-gradient(135deg, var(--bright-blue), var(--purple-accent));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.footer-logo-img:hover {
+  transform: scale(1.05);
 }
 
 .footer-description {

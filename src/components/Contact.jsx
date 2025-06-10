@@ -33,26 +33,30 @@ const Contact = () => {
     {
       name: 'Instagram',
       url: 'https://instagram.com/gtublockchain',
-      icon: '📷',
-      color: 'linear-gradient(135deg, #E4405F, #F56040)'
+      icon: '/images/social/instagram.svg',
+      color: 'linear-gradient(135deg, #E4405F, #F56040)',
+      hoverColor: '#E4405F'
     },
     {
-      name: 'Twitter/X',
+      name: 'X',
       url: 'https://x.com/gtublockchain',
-      icon: '🐦',
-      color: 'linear-gradient(135deg, #1DA1F2, #0E71A8)'
+      icon: '/images/social/x.svg',
+      color: 'linear-gradient(135deg, #000000, #1a1a1a)',
+      hoverColor: '#000000'
     },
     {
       name: 'LinkedIn',
       url: 'https://linkedin.com/company/gtublockchain',
-      icon: '💼',
-      color: 'linear-gradient(135deg, #0077B5, #005885)'
+      icon: '/images/social/linkedin.svg',
+      color: 'linear-gradient(135deg, #0077B5, #005885)',
+      hoverColor: '#0077B5'
     },
     {
       name: 'YouTube',
       url: 'https://youtube.com/@gtublockchain',
-      icon: '🎥',
-      color: 'linear-gradient(135deg, #FF0000, #CC0000)'
+      icon: '/images/social/youtube.svg',
+      color: 'linear-gradient(135deg, #FF0000, #CC0000)',
+      hoverColor: '#FF0000'
     }
   ];
 
@@ -84,7 +88,7 @@ const Contact = () => {
                     className="social-link"
                     style={{ background: social.color }}
                   >
-                    <span className="social-icon">{social.icon}</span>
+                    <img src={social.icon} alt={social.name} className="social-icon-img" />
                     <span className="social-name">{social.name}</span>
                   </a>
                 ))}

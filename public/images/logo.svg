@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#58e6ff"/>
+<stop offset="100%" style="stop-color:#8b5cf6"/>
+</linearGradient>
+</defs>
+<rect width="80" height="80" rx="16" fill="url(#logoGradient)"/>
+<path d="M20 30 L40 20 L60 30 L60 50 L40 60 L20 50 Z" stroke="white" stroke-width="3" fill="none"/>
+<circle cx="40" cy="40" r="8" fill="white"/>
+<rect x="15" y="15" width="10" height="10" rx="2" fill="white" opacity="0.8"/>
+<rect x="55" y="15" width="10" height="10" rx="2" fill="white" opacity="0.8"/>
+<rect x="15" y="55" width="10" height="10" rx="2" fill="white" opacity="0.8"/>
+<rect x="55" y="55" width="10" height="10" rx="2" fill="white" opacity="0.8"/>
+</svg> 
