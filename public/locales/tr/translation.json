@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "team": "Ekibimiz",
+    "achievements": "Başarılarımız",
+    "events": "Etkinlikler",
+    "contact": "İletişim"
+  },
+  "home": {
+    "title": "Smart Contracts, Smarter Future",
+    "subtitle": "Gebze Teknik Üniversitesi'nin öncülüğünde, Web3 ve Blockchain teknolojilerini genç zihinlerle buluşturan GTU Blockchain Kulübü.",
+    "joinUs": "Bize Katıl",
+    "viewEvents": "Etkinlikleri Gör"
+  },
+  "about": {
+    "title": "Blockchain Teknolojisiyle Geleceği Şekillendiriyoruz",
+    "description": "GTU Blockchain Kulübü, Gebze Teknik Üniversitesi bünyesinde blockchain teknolojisine ilgi duyan öğrencileri bir araya getirmek, sektördeki en güncel gelişmeleri takip etmek ve yenilikçi projeler üretmek amacıyla kurulmuştur. Dijital dünyada devrim yaratan bu teknolojiyi akademik bilgiyle harmanlayarak hem teorik hem de pratik alanda öğrenmeyi teşvik ediyoruz.",
+    "goals": {
+      "title": "Amaçlarımız:",
+      "items": [
+        "Blockchain, Web3, Akıllı Kontratlar ve DeFi üzerine eğitimler vermek",
+        "Yazılım ve proje ekipleriyle yenilikçi projeler üretmek", 
+        "Hackathonlar ve workshoplar ile uygulamalı deneyim sunmak",
+        "Sektör profesyonelleriyle kariyer fırsatları oluşturmak"
+      ]
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Blockchain teknolojisinin geleceği şekillendireceğine inanıyoruz. GTU Blockchain olarak yalnızca bu teknolojiyi kullanan değil, aynı zamanda geliştiren bireyler yetiştirmeyi amaçlıyoruz. Ulusal ve uluslararası arenada üniversitemizi temsil ederek güçlü bir ekip ruhuyla, samimi ve üretken bir aile olma vizyonuyla hareket ediyoruz."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Misyonumuz, blockchain teknolojisinin potansiyelini öğrencilere tanıtmak, onların bu alanda yetkin bireyler olmalarını sağlamak ve sürdürülebilir katkılar sunan bir ekosistem inşa etmektir. Atölyeler, yarışmalar ve eğitimlerle teknik gelişimi teşvik ederken, yerel ve global iş birlikleriyle topluluğumuzu ileriye taşımayı hedefliyoruz."
+    }
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "members": {
+      "president": "Kulüp Başkanı",
+      "vicePresident": "Başkan Yardımcısı",
+      "techLead": "Yazılım Ekibi Başkanı",
+      "sponsorshipLead": "Sponsorluk ve Organizasyon Lideri",
+      "financeDirector": "Finans Direktörü"
+    }
+  },
+  "achievements": {
+    "title": "Başarılarımız",
+    "ethprague": {
+      "title": "2025 ETHPrague Hackathon",
+      "description": "ETHPrague hackathon etkinliğine 12 kişilik ekip ile katılım",
+      "details": [
+        "İlk uluslararası hackathon deneyimimizde, 2 farklı proje ile Blockscout'un $10,000 ödül havuzuna girme başarısı",
+        "Bu başarı, GTU Blockchain için yalnızca bir başlangıç."
+      ]
+    }
+  },
+  "events": {
+    "title": "Etkinliklerimiz",
+    "gallery": "Galeri formatında tüm fiziksel ve çevrimiçi etkinliklerin fotoğraf ve video arşivi"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "info": "İletişim Bilgileri:",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta",
+      "message": "Mesajınız",
+      "send": "Gönder"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 GTU Blockchain | Tüm hakları saklıdır."
+  }
+} 

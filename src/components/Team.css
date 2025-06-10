@@ -1,0 +1,220 @@
+.team {
+  background: var(--primary-black);
+  position: relative;
+  overflow: hidden;
+}
+
+.team-grid {
+  margin-top: 3rem;
+}
+
+.team-card {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.team-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(88, 230, 255, 0.2);
+}
+
+.member-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: avatarFloat 3s ease-in-out infinite;
+}
+
+.member-emoji {
+  font-size: 3rem;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+@keyframes avatarFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(5deg);
+  }
+}
+
+.member-info {
+  position: relative;
+  z-index: 2;
+}
+
+.member-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 0.5rem;
+}
+
+.member-role {
+  font-size: 1rem;
+  color: var(--bright-blue);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.member-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(88, 230, 255, 0.9), rgba(139, 92, 246, 0.9));
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+.team-card:hover .member-overlay {
+  opacity: 1;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.link-placeholder {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: var(--text-white);
+  font-weight: 600;
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.link-placeholder:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.team-bg-elements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  opacity: 0.1;
+}
+
+.floating-element {
+  position: absolute;
+  font-size: 4rem;
+  animation: teamFloat 8s ease-in-out infinite;
+}
+
+.element-1 {
+  top: 15%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.element-2 {
+  top: 25%;
+  right: 15%;
+  animation-delay: 2s;
+}
+
+.element-3 {
+  bottom: 30%;
+  left: 20%;
+  animation-delay: 4s;
+}
+
+.element-4 {
+  bottom: 20%;
+  right: 10%;
+  animation-delay: 6s;
+}
+
+@keyframes teamFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.1;
+  }
+  25% {
+    transform: translateY(-15px) rotate(5deg);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-30px) rotate(0deg);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateY(-15px) rotate(-5deg);
+    opacity: 0.3;
+  }
+}
+
+/* Special effects for each team member card */
+.team-card:nth-child(1) .member-avatar {
+  animation-delay: 0s;
+}
+
+.team-card:nth-child(2) .member-avatar {
+  animation-delay: 0.5s;
+}
+
+.team-card:nth-child(3) .member-avatar {
+  animation-delay: 1s;
+}
+
+.team-card:nth-child(4) .member-avatar {
+  animation-delay: 1.5s;
+}
+
+.team-card:nth-child(5) .member-avatar {
+  animation-delay: 2s;
+}
+
+.team-card:nth-child(6) .member-avatar {
+  animation-delay: 2.5s;
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+
+  .member-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .member-emoji {
+    font-size: 2.5rem;
+  }
+
+  .member-name {
+    font-size: 1.1rem;
+  }
+
+  .member-role {
+    font-size: 0.9rem;
+  }
+
+  .floating-element {
+    font-size: 3rem;
+  }
+} 

@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "team": "Our Team",
+    "achievements": "Achievements",
+    "events": "Events",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Smart Contracts, Smarter Future",
+    "subtitle": "GTU Blockchain Club brings Web3 and Blockchain technologies together with young minds under the leadership of Gebze Technical University.",
+    "joinUs": "Join Us",
+    "viewEvents": "View Events"
+  },
+  "about": {
+    "title": "Shaping the Future with Blockchain Technology",
+    "description": "GTU Blockchain Club was established within Gebze Technical University to bring together students interested in blockchain technology, follow the latest developments in the sector, and produce innovative projects. We encourage learning both theoretically and practically by blending this revolutionary technology in the digital world with academic knowledge.",
+    "goals": {
+      "title": "Our Goals:",
+      "items": [
+        "Providing education on Blockchain, Web3, Smart Contracts and DeFi",
+        "Producing innovative projects with software and project teams",
+        "Providing hands-on experience through hackathons and workshops",
+        "Creating career opportunities with industry professionals"
+      ]
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "We believe that blockchain technology will shape the future. As GTU Blockchain, we aim to train individuals who not only use this technology but also develop it. We act with the vision of representing our university in national and international arenas with a strong team spirit, being a sincere and productive family."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to introduce the potential of blockchain technology to students, ensure that they become competent individuals in this field, and build an ecosystem that offers sustainable contributions. We aim to promote technical development through workshops, competitions and trainings, while moving our community forward with local and global collaborations."
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "members": {
+      "president": "Club President",
+      "vicePresident": "Vice President",
+      "techLead": "Software Team Lead",
+      "sponsorshipLead": "Sponsorship and Organization Leader",
+      "financeDirector": "Finance Director"
+    }
+  },
+  "achievements": {
+    "title": "Our Achievements",
+    "ethprague": {
+      "title": "2025 ETHPrague Hackathon",
+      "description": "Participated in ETHPrague hackathon event with a team of 12 people",
+      "details": [
+        "In our first international hackathon experience, we succeeded in entering Blockscout's $10,000 prize pool with 2 different projects",
+        "This success is just a beginning for GTU Blockchain."
+      ]
+    }
+  },
+  "events": {
+    "title": "Our Events",
+    "gallery": "Photo and video archive of all physical and online events in gallery format"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "info": "Contact Information:",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "message": "Your Message",
+      "send": "Send"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 GTU Blockchain | All rights reserved."
+  }
+} 
